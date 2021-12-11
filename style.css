@@ -21,17 +21,25 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    background-color: khaki;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
+   
 }
 
 img {
   width: 100%
 }
-
 .containerhead{
   max-width: 1000px;
   padding: 10px;
   margin: 0 auto;
+ 
+
+}
+
+header{
+  background-color: khaki;
+
 }
 
 .container{
@@ -40,6 +48,7 @@ img {
   margin: 1rem auto;
   float: inherit;
   text-align: left;
+  
   }
 
 .container.image{
@@ -47,14 +56,20 @@ img {
   padding: 0;
   border: lightcoral;
   border-width: 100px;
+  font-style: italic;
+  text-align: center;
+  font-size: smaller;
   
 }
 
 .container.imagehead{
-  max-width: 600px;
+  max-width: 1600px;
+  border-image-width: 6rem;
   padding: 0;
   font-style: italic;
   font-size: small;
+  background-color: khaki;
+
 }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
